@@ -60,6 +60,9 @@ pip install -r requirements.txt
 ```bash
 uvicorn systemstatusapi:app --reload
 ```
+http://localhost:8000/docs   ← Swagger UI
+http://localhost:8000/redoc  ← ReDoc alternative view
+
 ### 5. Run the System Monitor Script
 ```bash
 python system.py
